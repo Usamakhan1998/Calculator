@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h2>Name: Muhammad Usama Khan</h2>
+        <h3>Roll no: WM8271</h3>
+    </center>
+    <div class="main">
+        <div>
+            <input id="result" type="text" name="" id="">
+        </div>
+        <div id="stripe">
+            <button class="ClrBtn" onclick="clearResult()">C</button>
+        </div>
+        <div id="stripe">
+            <button class="Btns" onclick="getnumber('7')">7</button>
+            <button class="Btns" onclick="getnumber('8')">8</button>
+            <button class="Btns" onclick="getnumber('9')">9</button>
+            <button class="SgnBtn1" onclick="getnumber('*')">X</button>
+        </div>
+        <div id="stripe">
+            <button class="Btns" onclick="getnumber('4')">4</button>
+            <button class="Btns" onclick="getnumber('5')">5</button>
+            <button class="Btns" onclick="getnumber('6')">6</button>
+            <button class="SgnBtn2" onclick="getnumber('-')">-</button>
+        </div>
+        <div id="stripe">
+            <button class="Btns" onclick="getnumber('1')">1</button>
+            <button class="Btns" onclick="getnumber('2')">2</button>
+            <button class="Btns" onclick="getnumber('3')">3</button>
+            <button class="SgnBtn3" onclick="getnumber('+')">+</button>
+        </div>
+        <div id="stripe">
+            <button class="BtmBtn1" onclick="getnumber('0')">0</button>
+            <button class="BtmBtns" onclick="getnumber('00')">00</button>
+            <button class="BtmBtns" onclick="getnumber('.')">.</button>
+            <button class="EqlBtn" onclick="getResult()">=</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
